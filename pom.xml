@@ -4,6 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.1.0 https://maven.apache.org/xsd/maven-4.1.0.xsd"
          root="true">
     <modelVersion>4.1.0</modelVersion>
+    <parent>
+     <groupId>dev.ikm.build</groupId>
+     <artifactId>java-parent</artifactId>
+     <version>1.73.0</version>
+    </parent>
 
     <groupId>dev.ikm.komet.plugins</groupId>
     <artifactId>plugin-incubator</artifactId>
@@ -13,8 +18,11 @@
     <name>Plugin Incubator</name>
     <description>Incubator for Custom plugins for Komet Desktop</description>
 
+
     <subprojects>
+        <subproject>plugin-service-loader</subproject>
         <subproject>komet-plugins</subproject>
+        <subproject>plugin-layer</subproject>
         <subproject>komet-desktop</subproject>
     </subprojects>
 </project>

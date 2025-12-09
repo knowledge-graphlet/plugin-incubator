@@ -4,3 +4,9 @@
 [submodule "komet-desktop"]
 	path = komet-desktop
 	url = https://knowledge-graphlet@github.com/knowledge-graphlet/komet-desktop.git
+[submodule "plugin-layer"]
+	path = plugin-layer
+	url = https://knowledge-graphlet@github.com/knowledge-graphlet/plugin-layer.git
+[submodule "plugin-service-loader"]
+	path = plugin-service-loader
+	url = https://knowledge-graphlet@github.com/knowledge-graphlet/plugin-service-loader.git

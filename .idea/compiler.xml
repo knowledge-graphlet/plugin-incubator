@@ -2,6 +2,11 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+      </profile>
       <profile name="Annotation profile for Plugin Incubator" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -11,8 +16,10 @@
           <entry name="$MAVEN_REPOSITORY$/com/squareup/javapoet/1.12.1/javapoet-1.12.1.jar" />
           <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-processor/34/record-builder-processor-34.jar" />
         </processorPath>
-        <module name="komet-desktop" />
+        <module name="plugin-layer" />
         <module name="komet-plugins" />
+        <module name="plugin-service-loader" />
+        <module name="komet-desktop" />
       </profile>
     </annotationProcessing>
   </component>
