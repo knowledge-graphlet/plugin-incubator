@@ -1,0 +1,6 @@
+[submodule "komet-plugins"]
+	path = komet-plugins
+	url = https://knowledge-graphlet@github.com/knowledge-graphlet/komet-plugins.git
+[submodule "komet-desktop"]
+	path = komet-desktop
+	url = https://knowledge-graphlet@github.com/knowledge-graphlet/komet-desktop.git
